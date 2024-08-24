@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud System Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -31,6 +33,26 @@
             </div>
         </div>
     </nav>
+    <!-- Main Content Section -->
+    <section class="container mx-auto px-4 py-8">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+          <!-- Image on the right -->
+          <div class="md:w-1/2 mb-8 md:mb-0">
+              <img src="./imgs/main-pic.PNG" alt="Description of Image" class="w-full h-auto rounded-lg shadow-lg">
+          </div>
 
+          <!-- Explanation on the left -->
+          <div class="px-5 md:w-1/2 md:pl-8">
+              <h2 class="text-3xl font-bold text-gray-800 mb-4">بیشتر درباره ما بدانید</h2>
+              <p class="text-gray-600 text-lg leading-relaxed mb-4">
+              ما یک سیستم مبتنی بر رایانش ابری هستیم
+
+                هدف ما ارائه خذمات آسان و بامزه برای برنامه نویسان هست
+                تا آنها بتوانند براحتی برنامه های خود را در بستر وب اجرا کنند
+              </p>
+              <a href="#" class="inline-block px-6 py-3 bg-cyan-500 text-white font-semibold rounded-md hover:bg-cyan-700 transition-colors duration-300">همین حالا ثبت نام کنید</a>
+          </div>
+      </div>
+  </section>
 </body>
 </html>
